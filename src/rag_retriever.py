@@ -1,11 +1,17 @@
 """Semantic retrieval module using SentenceTransformers and FAISS index with source/page citations."""
 
 import json
+import os
 from pathlib import Path
 from typing import Any
 
 import faiss
 import numpy as np
+
+# This application uses the PyTorch backend; TensorFlow is optional and may have
+# an incompatible protobuf installation in the same environment.
+os.environ.setdefault("USE_TF", "0")
+
 from sentence_transformers import SentenceTransformer
 
 from src.phase3_config import (
