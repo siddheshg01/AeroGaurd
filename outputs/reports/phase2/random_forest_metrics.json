@@ -1,0 +1,16 @@
+{
+  "validation": {
+    "mean_baseline": {
+      "MAE": 64.0893,
+      "RMSE": 78.9251
+    },
+    "random_forest": {
+      "MAE": 27.1904,
+      "RMSE": 39.2113
+    }
+  },
+  "test": {
+    "MAE": 47.889,
+    "RMSE": 56.6181
+  }
+}

@@ -1,0 +1,18 @@
+# AeroGuard AI — Dependencies (Phase 1, Phase 2, and Phase 3)
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+pytest>=7.3.0
+
+# Phase 3: RAG Knowledge Base & Evidence-Grounded Assistant
+pypdf>=5.0.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+torch>=2.0.0
+
+# Phase 4: Integrated Streamlit Intelligence Dashboard
+streamlit>=1.30.0

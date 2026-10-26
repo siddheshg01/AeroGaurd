@@ -1,0 +1,62 @@
+{
+  "status": "PASSED",
+  "shapes": {
+    "train": {
+      "rows": 20631,
+      "columns": 26
+    },
+    "test": {
+      "rows": 13096,
+      "columns": 26
+    },
+    "rul": {
+      "rows": 100,
+      "columns": 2
+    }
+  },
+  "engine_counts": {
+    "train_unique_engines": 100,
+    "test_unique_engines": 100,
+    "rul_engine_count": 100,
+    "train_unit_ids_min_max": [
+      1,
+      100
+    ],
+    "test_unit_ids_min_max": [
+      1,
+      100
+    ]
+  },
+  "missing_values": {
+    "train_total_nans": 0,
+    "test_total_nans": 0,
+    "rul_total_nans": 0
+  },
+  "duplicate_rows": {
+    "train_full_row_duplicates": 0,
+    "test_full_row_duplicates": 0,
+    "train_unit_cycle_duplicates": 0,
+    "test_unit_cycle_duplicates": 0
+  },
+  "cycle_ranges": {
+    "train_engines_start_at_cycle_1": true,
+    "test_engines_start_at_cycle_1": true,
+    "train_cycles_monotonic": true,
+    "test_cycles_monotonic": true,
+    "train_max_cycle_stats": {
+      "min": 128,
+      "max": 362,
+      "mean": 206.31,
+      "median": 199.0,
+      "std": 46.34
+    },
+    "test_max_cycle_stats": {
+      "min": 31,
+      "max": 303,
+      "mean": 130.96,
+      "median": 133.5,
+      "std": 53.59
+    }
+  },
+  "failures": []
+}

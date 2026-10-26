@@ -1,0 +1,27 @@
+# AeroGuard AI - Sensor Statistics & Variance Profile
+
+| sensor | description | mean | std | min | max | variance | is_constant | informative |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| sensor_1 | Fan inlet temperature (T2) [°R] | 518.67 | 0.0 | 518.67 | 518.67 | 0.0 | True | False |
+| sensor_2 | LPC outlet temperature (T24) [°R] | 642.6809 | 0.5001 | 641.21 | 644.53 | 0.250053 | False | True |
+| sensor_3 | HPC outlet temperature (T30) [°R] | 1590.5231 | 6.1311 | 1571.04 | 1616.91 | 37.590994 | False | True |
+| sensor_4 | LPT outlet temperature (T50) [°R] | 1408.9338 | 9.0006 | 1382.25 | 1441.49 | 81.010886 | False | True |
+| sensor_5 | Fan inlet pressure (P2) [psia] | 14.62 | 0.0 | 14.62 | 14.62 | 0.0 | True | False |
+| sensor_6 | Bypass-duct pressure (P15) [psia] | 21.6098 | 0.0014 | 21.6 | 21.61 | 2e-06 | False | True |
+| sensor_7 | HPC outlet pressure (P30) [psia] | 553.3677 | 0.8851 | 549.85 | 556.06 | 0.783388 | False | True |
+| sensor_8 | Physical fan speed (Nf) [rpm] | 2388.0967 | 0.071 | 2387.9 | 2388.56 | 0.005039 | False | True |
+| sensor_9 | Physical core speed (Nc) [rpm] | 9065.2429 | 22.0829 | 9021.73 | 9244.59 | 487.653568 | False | True |
+| sensor_10 | Engine pressure ratio (epr) [--] | 1.3 | 0.0 | 1.3 | 1.3 | 0.0 | True | False |
+| sensor_11 | HPC static pressure (Ps30) [psia] | 47.5412 | 0.2671 | 46.85 | 48.53 | 0.071336 | False | True |
+| sensor_12 | Ratio of fuel flow to Ps30 (phi) [pps/psi] | 521.4135 | 0.7376 | 518.69 | 523.38 | 0.543985 | False | True |
+| sensor_13 | Corrected fan speed (NRf) [rpm] | 2388.0962 | 0.0719 | 2387.88 | 2388.56 | 0.005172 | False | True |
+| sensor_14 | Corrected core speed (NRc) [rpm] | 8143.7527 | 19.0762 | 8099.94 | 8293.72 | 363.90049 | False | True |
+| sensor_15 | Bypass ratio (BPR) [--] | 8.4421 | 0.0375 | 8.3249 | 8.5848 | 0.001407 | False | True |
+| sensor_16 | Burner fuel-air ratio (farB) [--] | 0.03 | 0.0 | 0.03 | 0.03 | 0.0 | True | False |
+| sensor_17 | Bleed enthalpy (htBleed) [--] | 393.2107 | 1.5488 | 388.0 | 400.0 | 2.398667 | False | True |
+| sensor_18 | Demanded fan speed (Nf_dmd) [rpm] | 2388.0 | 0.0 | 2388.0 | 2388.0 | 0.0 | True | False |
+| sensor_19 | Demanded corrected fan speed (PCNfR_dmd) [rpm] | 100.0 | 0.0 | 100.0 | 100.0 | 0.0 | True | False |
+| sensor_20 | HPT coolant bleed (W31) [lbm/s] | 38.8163 | 0.1807 | 38.14 | 39.43 | 0.032669 | False | True |
+| sensor_21 | LPT coolant bleed (W32) [lbm/s] | 23.2897 | 0.1083 | 22.8942 | 23.6184 | 0.011718 | False | True |
+
+*Note: Constant sensors with ~0 variance provide no degradation information under FD001 single-condition operating mode.*
