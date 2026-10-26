@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: aeroguard-ai
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /
+    autoDeploy: true
